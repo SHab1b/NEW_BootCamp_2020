@@ -30,4 +30,4 @@ jobs:
     - name: Installing surge 
       run: npm install -g surge
     - name: Deploy my only Index.html
-      run: surge ./ BOOTCAMP_KASUR_LATEST_TRY.surge.sh --token {{ secrets.PRACTICE_BOOTCAMP }}
+      run: surge ./ BOOTCAMP_KASUR_LATEST_TRY.surge.sh --token ${{ secrets.PRACTICE_BOOTCAMP }}
